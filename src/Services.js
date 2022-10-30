@@ -69,7 +69,7 @@ const Services = () =>{
         </div>
         <div class="flex-grow">
           <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Office Shifting</h2>
-          <p class="leading-relaxed text-center">It's a big challenge for every company when they are in thought of migrating office or in the process of migration. Because, so much of their works are depends on lot of gadgets, electronic goods like computer and other essential things. So it's important to protect them while shifting them from one place to another due to these reasons. So, you dont need to worry henceforth. we are there to assist you for your need. we will assure smooth transition of your belongings by exclusive packing and boarding techniques. Book our services for your hassle free shifting process!.</p>
+          <p class="leading-relaxed text-center text-justify">It's a big challenge for every company when they are in thought of migrating office or in the process of migration. Because, so much of their works are depends on lot of gadgets, electronic goods like computer and other essential things. So it's important to protect them while shifting them from one place to another due to these reasons. So, you dont need to worry henceforth. we are there to assist you for your need. we will assure smooth transition of your belongings by exclusive packing and boarding techniques. Book our services for your hassle free shifting process!.</p>
           
         </div>
       </div>
@@ -83,7 +83,7 @@ const Services = () =>{
         </div>
         <div class="flex-grow">
           <h2 class="text-gray-900 text-lg title-font font-medium mb-3">House Shifting</h2>
-          <p class="leading-relaxed text-base">Our services is also available for your house shifting process.We have been using seperate packing materials and packing methodology to ensure the protection of goods. We will be available on your convenient time to provide services and assistance as you expected.</p>
+          <p class="leading-relaxed text-center text-justify">Our services is also available for your house shifting process.We have been using seperate packing materials and packing methodology to ensure the protection of goods. We will be available on your convenient time to provide services and assistance as you expected.</p>
           
         </div>
       </div>
@@ -98,7 +98,7 @@ const Services = () =>{
         </div>
         <div class="flex-grow">
           <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Transport</h2>
-          <p class="leading-relaxed text-base"> One-stop solution for all your transportation needs. we have all types of vehicles based on your needs. by having route experts and experienced chauffeurs, we will report our vehicle at your preferred location and provide the service on time at your place. reach us to experience the new way of transport.</p>
+          <p class="leading-relaxed text-center text-justify"> One-stop solution for all your transportation needs. we have all types of vehicles based on your needs. by having route experts and experienced chauffeurs, we will report our vehicle at your preferred location and provide the service on time at your place. reach us to experience the new way of transport.</p>
           
         </div>
       </div>

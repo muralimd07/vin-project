@@ -8,7 +8,7 @@ function gotowhatsap(){
   var message = document.getElementById("message").value;
   var url = "https://wa.me/918148225837?text="+
   "Name:"+" "+name+"%0a"
-  +"Email:"+" "+mobile+"%0a"
+  +"Mobile:"+" "+mobile+"%0a"
   +"Email:"+" "+email+"%0a"
   +"Message:"+" "+message+"%0a";
   window.open(url,'_blank').focus();
@@ -122,7 +122,7 @@ const Reachus = () =>{
         <div class="p-2 w-1/2">
           <div class="relative">
             <label for="mobile" class="leading-7 text-sm text-gray-600">Contact</label>
-            <input type="number" id="mobile" name="mobile" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-purple-500 focus:bg-white focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" placeholder='Enter Your Email' required/>
+            <input type="number" id="mobile" name="mobile" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-purple-500 focus:bg-white focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" placeholder='Enter Your Mobile Number' required/>
           </div>
         </div>
         <div class="p-2 w-full">

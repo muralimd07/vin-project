@@ -9,14 +9,22 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import About from './About';
 import {Link} from 'react-router-dom';
 import { Bounce } from 'react-reveal';
+import { Helmet } from 'react-helmet';
 
 
 
 
 
 
-const Home= ()=>{
-    return <div>
+const Home= ()=>{ return <div>
+  
+      
+      
+       
+
+      
+      
+      
         <div>
         
         <header class="text-gray-600 body-font">
@@ -66,11 +74,11 @@ const Home= ()=>{
 <div>
 <section class="text-gray-600 body-font">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center text-justify">
       <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Make a Smart Move
        
       </h1>
-      <p class="mb-8 leading-relaxed"> Goods are like our family members that travel with us wherever we move in the world. It is always a beautiful matter to decorate our home with goods. we wish to buy the goods and fill them at home in order to get the attraction of visitors and make our day to day activities at ease. It's very easy to gift them to others. But when it is come to shifting them, it's not an ordinary task to do. There are a lot of queries running through our mind when we are in thought of how to shift them while every time buying them. We are here for you to answer all of your queries and provide solutions!.</p>
+      <p class="mb-8 leading-relaxed text-center text-justify"> Goods are like our family members that travel with us wherever we move in the world. It is always a beautiful matter to decorate our home with goods. we wish to buy the goods and fill them at home in order to get the attraction of visitors and make our day to day activities at ease. It's very easy to gift them to others. But when it is come to shifting them, it's not an ordinary task to do. There are a lot of queries running through our mind when we are in thought of how to shift them while every time buying them. We are here for you to answer all of your queries and provide solutions!.</p>
       <div class="flex justify-center">
         <Link to='/Gallery' class="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">Gallery</Link>
         <Link to ='/about' class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-red-200 rounded text-lg">Learn More</Link>
@@ -139,5 +147,6 @@ const Home= ()=>{
       
 
 </div>
+
 }
 export default Home;
